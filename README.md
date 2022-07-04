@@ -2,24 +2,24 @@
 
 1. Написать метод domain_name, который вернет домен из url адреса:
 
-url = "http://github.com/carbonfive/raygun" -> domain name = "github"
-url = "http://www.zombie-bites.com"         -> domain name = "zombie-bites"
-url = "https://www.cnet.com"                -> domain name = "cnet"
+url = "http://github.com/carbonfive/raygun" -> domain name = "github";
+url = "http://www.zombie-bites.com"         -> domain name = "zombie-bites";
+url = "https://www.cnet.com"                -> domain name = "cnet";
 
 
 2. Написать метод int32_to_ip, который принимает на вход 32-битное целое число
 (integer) и возвращает строковое представление его в виде IPv4-адреса:
 
-2149583361 -> "128.32.10.1"
-32         -> "0.0.0.32"
-0          -> "0.0.0.0"
+2149583361 -> "128.32.10.1";
+32         -> "0.0.0.32";
+0          -> "0.0.0.0";
 
 
 3. Написать метод zeros, который принимает на вход целое число (integer) и
 возвращает количество конечных нулей в факториале (N! = 1 * 2 * 3 * ... * N) заданного числа:
 
 zeros(6) = 1
- 6! = 1 * 2 * 3 * 4 * 5 * 6 = 720 --> 1 trailing zero
+ 6! = 1 * 2 * 3 * 4 * 5 * 6 = 720 --> 1 trailing zero;
  
  
  4. Написать метод bananas, который принимает на вход строку и
