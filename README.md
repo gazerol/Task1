@@ -1,6 +1,6 @@
 # Tasks
 
-1.Написать метод domain_name, который вернет домен из url адреса:
+1. Написать метод domain_name, который вернет домен из url адреса:
 
 url = "http://github.com/carbonfive/raygun" -> domain name = "github"
 url = "http://www.zombie-bites.com"         -> domain name = "zombie-bites"
@@ -15,7 +15,7 @@ url = "https://www.cnet.com"                -> domain name = "cnet"
 0          -> "0.0.0.0"
 
 
-3.Написать метод zeros, который принимает на вход целое число (integer) и
+3. Написать метод zeros, который принимает на вход целое число (integer) и
 возвращает количество конечных нулей в факториале (N! = 1 * 2 * 3 * ... * N) заданного числа:
 
 zeros(6) = 1
